@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: flex-end;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.header-img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
