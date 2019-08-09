@@ -206,3 +206,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.content-box {
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
