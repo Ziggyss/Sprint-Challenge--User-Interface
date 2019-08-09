@@ -85,6 +85,10 @@ p {
     width: 75%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header-img {
     padding-bottom: 20px;
     padding-top: 20px;
