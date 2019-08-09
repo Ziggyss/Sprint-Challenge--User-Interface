@@ -217,10 +217,35 @@ footer nav a {
     width: 370px;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-img {
+    padding-bottom: 20px;
 }
 
 .main-about {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.text {
+    padding-bottom: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px; 
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;  
+
+}
+
+.bottom-about {
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
