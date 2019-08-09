@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -237,12 +238,28 @@ footer nav a {
     padding-bottom: 20px;
 }
 
+@keyframes bounce {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale (1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 button {
     width: 120px;
     height: 40px; 
     border-radius: 10px;
     border: 2px solid black;
     font-size: 15px; 
+    animation-name: bounce;
+    animation-duration: 4s;
 
 
 }
@@ -292,3 +309,5 @@ input, textarea {
 form div {
     margin: 1em;
 }
+
+
